@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+body.light {
+    background-color: #ffffff;
+    color: black;
+}
+
+body.dark .card {
+    background-color: #333;
+    color: white;
+}
+
+body.light .card {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+body.light label {
+    color: black;
+}
+
+body.light .input-group label {
+    color: black;
+}
+
+body.light input[type="text"], body.light input[type="number"] {
+    color: black;
+}
+
+body.light .bx-chevron-left {
+    color : black;
+}
+
+body.dark .bx-chevron-left {
+    color : white;
+}
+
+body.light .bxs-wallet{
+    color: black;
+}
+
+body.dark .bxs-wallet{
+    color: white;
+}
+
+body.dark input[type="text"], input[type="number"], input[type="datetime-local"] {
+    color: white;
+}
+
+body.light input[type="datetime-local"] {
+    color: black;
+}
+
+body.dark tbody {
+    color: white;
+}
+
+body.dark .bg-column {
+    background-color: #3858e9;
+    color: white;
+}
+
+body.light .bg-column {
+    background-color: #3858e9;
+    color: white;
+}

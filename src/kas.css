@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 10px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/*navbar start*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 13px 10%;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.bx-chevron-left {
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 400px;
+}
+
+.toggle{
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-left: 400px;
+}
+
+.fa-money-bill-wave {
+    font-size: 1.3rem;
+    margin-right: 8px;
+}
+.nav-title {
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+/*navbar end*/
+
+input[type="text"], input[type="number"], input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: 500;
+    -moz-appearance: textfield;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    outline: none;
+    border-bottom: 1px solid #007bff;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.btn-pendapatan{
+    border: 2px ;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 10px;
+    background-color: #45c874;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.btn-pendapatan:hover{
+    background-color: #73EC8B;
+}
+
+.btn-pengeluaran {
+    border: 2px ;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 10px;
+    background-color: #dc3545;
+    cursor: pointer;
+}
+
+.btn-pengeluaran:hover {
+    background-color: #FE4F2D;
+}
+
+h2{
+    text-align: center;
+    margin: 2px;
+    font-weight: 600;
+}
+
+.amount {
+    font-weight: 600;
+}
+
+.note {
+    font-weight: 600;
+}
+
+.date {
+    font-weight: 600;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 65px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 100px;
+}
+
+.table {
+    width: 80%;
+    margin: 125px;
+}
+
+.bg-column {
+    background-color: black;
+    color: white;
+}
